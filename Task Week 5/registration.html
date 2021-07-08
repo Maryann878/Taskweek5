@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+   <div class="big">
+       <h1>Registration Form</h1>
+<form action="" name="signup">
+
+<label for="fname"><span>*</span>First Name</label>
+<input type="text"name=fname id= "fname"placeholder="Enter your First Name" minlength="8" maxlength="12"><br>
+
+<label for="lname"><span>*</span>Last Name</label>
+<input type="text"name=lname id= "lname"placeholder="Enter your Last Name" minlength="8" maxlength="12"><br>
+
+<label for="email"><span>*</span>Email</label>
+<input type="text"name=email id= "email"placeholder="e.g: maryannnwagor@gmail.com" required> <br>
+
+
+<label for="uname"><span>*</span>Username</label>
+<input type="text"name=uname id= "uname"placeholder="Enter username" required minlength="6" maxlength="8"> <br>
+<p>(MUST contain a special character (@#$%&*) and at least one number)</p>
+
+
+<label for="password"><span>*</span>Password</label>
+<input type="password"name=p1 id= "p1"placeholder="Enter password" required> <br>
+
+<label for="passval"><span>*</span>Re-enter password</label>
+<input type="password"name=p2 id= "p2"placeholder="confirm password" required> <br> <br>
+
+
+<div class="button"></div>
+<input type ="submit" id="submitBtn"></button>
+</div>
+
+</form>
+</div>
+</div>
+  <script src="./registration.js"></script>
+</body>
+</html>
